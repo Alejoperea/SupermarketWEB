@@ -31,7 +31,7 @@ namespace SupermarketWEB.Pages.Categories
             Category = category;
             return Page();
         }
-		public async Task<IActionResult> OnPostAsync() // mirar si esto va o se reemplaza arriba
+		public async Task<IActionResult> OnPostAsync() 
         {
             if (!ModelState.IsValid) 
             { 
